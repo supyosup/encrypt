@@ -63,7 +63,7 @@ for num in encrypted_message:
     
     # if overflow flag is set for particular index, we must add 255 to get the correct value
     if overflow_flag[i] == 1:
-       decrypt_char = num + 255 - ascii_key
+        decrypt_char = num + 255 - ascii_key
     else:
         decrypt_char = num - ascii_key
     
