@@ -1,5 +1,7 @@
 #!/usr/local/bin/python3
 
+# just a test
+
 # prompt user for message & key
 user_message = input('Enter your message: ')
 user_key = input('Enter your key: ')
